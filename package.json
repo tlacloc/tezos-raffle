@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "@pinata/sdk": "^1.1.23",
+    "@taquito/beacon-wallet": "^10.1.1",
+    "@taquito/signer": "^10.1.1",
+    "@taquito/taquito": "^10.1.1",
+    "@taquito/tzip16": "^10.1.2",
+    "dotenv": "^10.0.0",
+    "form-data": "^4.0.0",
+    "prompt-sync": "^4.2.0",
+    "uuid": "^8.3.2"
+  },
+  "name": "first-smart-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "node scripts/index.js",
+    "estimate": "node scripts/estimate.js",
+    "deploy": "node scripts/deploy.js",
+    "mint": "node scripts/mint.js",
+    "getindex": "node scripts/mint-counter.js",
+    "storage": "node scripts/contract-storage.js",
+    "transfer": "node scripts/transfer.js",
+    "ledger": "node scripts/ledger.js",
+    "balance": "node scripts/ownerbalance.js",
+    "getmeths": "node scripts/contract-methods.js",
+    "start": "node scripts/contract-pause.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
